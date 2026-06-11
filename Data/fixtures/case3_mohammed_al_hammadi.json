@@ -1,0 +1,91 @@
+{
+  "_synthetic_note": "SYNTHETIC fixture for SZHP AI Agent testing. Not real personal data.",
+  "uae_pass": {
+    "emirates_id": "784-1985-2249076-3",
+    "full_name_en": "Mohammed Rashid Al Hammadi",
+    "full_name_ar": "محمد راشد الحمادي",
+    "nationality": "United Arab Emirates",
+    "is_uae_national": true,
+    "date_of_birth": "1985-11-22",
+    "gender": "Male",
+    "mobile": "+971-50-884-1772",
+    "email": "m.alhammadi@example.ae",
+    "address": {
+      "emirate": "Dubai",
+      "area": "Deira",
+      "po_box": "44190"
+    },
+    "marital_status": "Married",
+    "family": {
+      "household_size": 5,
+      "spouse": { "present": true, "employed": false },
+      "dependents": 3,
+      "children": [
+        { "age": 12, "in_education": true },
+        { "age": 9,  "in_education": true },
+        { "age": 5,  "in_education": false }
+      ]
+    }
+  },
+  "moei_systems": {
+    "beneficiary_id": "SZHP-BEN-101338",
+    "emirates_id": "784-1985-2249076-3",
+    "programme": "Sheikh Zayed Housing Programme",
+    "loan": {
+      "loan_id": "SZHP-LN-2020-06620",
+      "original_amount": 820000,
+      "disbursement_date": "2020-04-01",
+      "original_term_months": 240,
+      "months_elapsed": 70,
+      "remaining_term_months": 170,
+      "current_emi": 4100,
+      "outstanding_balance": 697000,
+      "salary_at_origination": 24000
+    },
+    "arrears": {
+      "total_arrears_amount": 32800,
+      "unpaid_installments": 8,
+      "months_overdue": 8,
+      "first_missed_month": "2025-10",
+      "status": "ACCRUING"
+    },
+    "payment_history": [
+      { "month": "2025-06", "due": 4100, "paid": 4100, "status": "PAID" },
+      { "month": "2025-07", "due": 4100, "paid": 4100, "status": "PAID" },
+      { "month": "2025-08", "due": 4100, "paid": 4100, "status": "PAID" },
+      { "month": "2025-09", "due": 4100, "paid": 4100, "status": "PAID" },
+      { "month": "2025-10", "due": 4100, "paid": 0, "status": "MISSED" },
+      { "month": "2025-11", "due": 4100, "paid": 0, "status": "MISSED" },
+      { "month": "2025-12", "due": 4100, "paid": 0, "status": "MISSED" },
+      { "month": "2026-01", "due": 4100, "paid": 0, "status": "MISSED" },
+      { "month": "2026-02", "due": 4100, "paid": 0, "status": "MISSED" },
+      { "month": "2026-03", "due": 4100, "paid": 0, "status": "MISSED" },
+      { "month": "2026-04", "due": 4100, "paid": 0, "status": "MISSED" },
+      { "month": "2026-05", "due": 4100, "paid": 0, "status": "MISSED" }
+    ],
+    "previous_applications": [
+      {
+        "application_id": "SZHP-APP-2023-1190",
+        "type": "INSTALLMENT_MODIFICATION",
+        "submitted": "2023-06-02",
+        "status": "CLOSED",
+        "outcome": "WITHDRAWN"
+      }
+    ]
+  },
+  "bank_statement_fixture": {
+    "_note": "Bank shows old employer salary (24000). Certificate claims new employer (16000). ~50% discrepancy triggers ESC3/V2 FAIL.",
+    "bank_name": "Mashreq Bank",
+    "account_number_masked": "****1772",
+    "declared_monthly_salary": 24000,
+    "employer_name": "Emirates Steel (former employer)",
+    "months": [
+      { "month": "2025-12", "salary_credit": 24000 },
+      { "month": "2026-01", "salary_credit": 24000 },
+      { "month": "2026-02", "salary_credit": 24000 },
+      { "month": "2026-03", "salary_credit": 24000 },
+      { "month": "2026-04", "salary_credit": 24000 },
+      { "month": "2026-05", "salary_credit": 24000 }
+    ]
+  }
+}

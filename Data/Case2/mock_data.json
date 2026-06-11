@@ -1,0 +1,141 @@
+{
+  "_synthetic_note": "SYNTHETIC mock data for SZHP AI Agent testing. Not real personal data.",
+  "uae_pass": {
+    "emirates_id": "784-1980-6628451-2",
+    "full_name_en": "Aisha Mohammed Al Nuaimi",
+    "full_name_ar": "عائشة محمد النعيمي",
+    "nationality": "United Arab Emirates",
+    "is_uae_national": true,
+    "date_of_birth": "1981-03-03",
+    "gender": "Female",
+    "mobile": "+971-55-227-9914",
+    "email": "aisha.alnuaimi@example.ae",
+    "address": {
+      "emirate": "Sharjah",
+      "area": "Al Wahda",
+      "po_box": "30218"
+    },
+    "marital_status": "Widowed",
+    "family": {
+      "household_size": 5,
+      "spouse": null,
+      "dependents": 4,
+      "children": [
+        {
+          "age": 17,
+          "in_education": true
+        },
+        {
+          "age": 14,
+          "in_education": true
+        },
+        {
+          "age": 11,
+          "in_education": true
+        },
+        {
+          "age": 8,
+          "in_education": true
+        }
+      ]
+    }
+  },
+  "moei_systems": {
+    "beneficiary_id": "SZHP-BEN-100892",
+    "emirates_id": "784-1980-6628451-2",
+    "programme": "Sheikh Zayed Housing Programme",
+    "loan": {
+      "loan_id": "SZHP-LN-2010-03317",
+      "original_amount": 680000,
+      "disbursement_date": "2010-12-01",
+      "original_term_months": 300,
+      "months_elapsed": 95,
+      "remaining_term_months": 205,
+      "current_emi": 2150,
+      "outstanding_balance": 440750,
+      "salary_at_origination": 18500
+    },
+    "arrears": {
+      "total_arrears_amount": 21500,
+      "unpaid_installments": 10,
+      "months_overdue": 10,
+      "first_missed_month": "2025-08",
+      "status": "ACCRUING"
+    },
+    "payment_history": [
+      {
+        "month": "2025-06",
+        "due": 2150,
+        "paid": 2150,
+        "status": "PAID"
+      },
+      {
+        "month": "2025-07",
+        "due": 2150,
+        "paid": 2150,
+        "status": "PAID"
+      },
+      {
+        "month": "2025-08",
+        "due": 2150,
+        "paid": 0,
+        "status": "MISSED"
+      },
+      {
+        "month": "2025-09",
+        "due": 2150,
+        "paid": 0,
+        "status": "MISSED"
+      },
+      {
+        "month": "2025-10",
+        "due": 2150,
+        "paid": 0,
+        "status": "MISSED"
+      },
+      {
+        "month": "2025-11",
+        "due": 2150,
+        "paid": 0,
+        "status": "MISSED"
+      },
+      {
+        "month": "2025-12",
+        "due": 2150,
+        "paid": 0,
+        "status": "MISSED"
+      },
+      {
+        "month": "2026-01",
+        "due": 2150,
+        "paid": 0,
+        "status": "MISSED"
+      },
+      {
+        "month": "2026-02",
+        "due": 2150,
+        "paid": 0,
+        "status": "MISSED"
+      },
+      {
+        "month": "2026-03",
+        "due": 2150,
+        "paid": 0,
+        "status": "MISSED"
+      },
+      {
+        "month": "2026-04",
+        "due": 2150,
+        "paid": 0,
+        "status": "MISSED"
+      },
+      {
+        "month": "2026-05",
+        "due": 2150,
+        "paid": 0,
+        "status": "MISSED"
+      }
+    ],
+    "previous_applications": []
+  }
+}

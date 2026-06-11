@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv
+venv/
+
+# Agent logs (runtime output)
+agent/logs/
+
+# Editor
+.vscode/
+.idea/
+*.sw?
+
+CLAUDE.md.env

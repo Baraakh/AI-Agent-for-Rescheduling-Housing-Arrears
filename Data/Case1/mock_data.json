@@ -1,0 +1,144 @@
+{
+  "_synthetic_note": "SYNTHETIC mock data for SZHP AI Agent testing. Not real personal data.",
+  "uae_pass": {
+    "emirates_id": "784-1988-3471902-6",
+    "full_name_en": "Khalid Saeed Al Mazrouei",
+    "full_name_ar": "خالد سعيد المزروعي",
+    "nationality": "United Arab Emirates",
+    "is_uae_national": true,
+    "date_of_birth": "1988-07-14",
+    "gender": "Male",
+    "mobile": "+971-50-441-7720",
+    "email": "khalid.almazrouei@example.ae",
+    "address": {
+      "emirate": "Abu Dhabi",
+      "area": "Khalifa City",
+      "po_box": "11542"
+    },
+    "marital_status": "Married",
+    "family": {
+      "household_size": 4,
+      "spouse": {
+        "present": true,
+        "employed": false
+      },
+      "dependents": 2,
+      "children": [
+        {
+          "age": 9,
+          "in_education": true
+        },
+        {
+          "age": 6,
+          "in_education": true
+        }
+      ]
+    }
+  },
+  "moei_systems": {
+    "beneficiary_id": "SZHP-BEN-100417",
+    "emirates_id": "784-1988-3471902-6",
+    "programme": "Sheikh Zayed Housing Programme",
+    "loan": {
+      "loan_id": "SZHP-LN-2014-08831",
+      "original_amount": 750000,
+      "disbursement_date": "2014-10-01",
+      "original_term_months": 240,
+      "months_elapsed": 96,
+      "remaining_term_months": 144,
+      "current_emi": 3400,
+      "outstanding_balance": 489600,
+      "salary_at_origination": 22000
+    },
+    "arrears": {
+      "total_arrears_amount": 13600,
+      "unpaid_installments": 4,
+      "months_overdue": 4,
+      "first_missed_month": "2026-02",
+      "status": "ACCRUING"
+    },
+    "payment_history": [
+      {
+        "month": "2025-06",
+        "due": 3400,
+        "paid": 3400,
+        "status": "PAID"
+      },
+      {
+        "month": "2025-07",
+        "due": 3400,
+        "paid": 3400,
+        "status": "PAID"
+      },
+      {
+        "month": "2025-08",
+        "due": 3400,
+        "paid": 3400,
+        "status": "PAID"
+      },
+      {
+        "month": "2025-09",
+        "due": 3400,
+        "paid": 3400,
+        "status": "PAID"
+      },
+      {
+        "month": "2025-10",
+        "due": 3400,
+        "paid": 3400,
+        "status": "PAID"
+      },
+      {
+        "month": "2025-11",
+        "due": 3400,
+        "paid": 3400,
+        "status": "PAID"
+      },
+      {
+        "month": "2025-12",
+        "due": 3400,
+        "paid": 3400,
+        "status": "PAID"
+      },
+      {
+        "month": "2026-01",
+        "due": 3400,
+        "paid": 3400,
+        "status": "PAID"
+      },
+      {
+        "month": "2026-02",
+        "due": 3400,
+        "paid": 0,
+        "status": "MISSED"
+      },
+      {
+        "month": "2026-03",
+        "due": 3400,
+        "paid": 0,
+        "status": "MISSED"
+      },
+      {
+        "month": "2026-04",
+        "due": 3400,
+        "paid": 0,
+        "status": "MISSED"
+      },
+      {
+        "month": "2026-05",
+        "due": 3400,
+        "paid": 0,
+        "status": "MISSED"
+      }
+    ],
+    "previous_applications": [
+      {
+        "application_id": "SZHP-APP-2019-0442",
+        "type": "INSTALLMENT_MODIFICATION",
+        "submitted": "2019-03-11",
+        "status": "CLOSED",
+        "outcome": "APPROVED"
+      }
+    ]
+  }
+}
